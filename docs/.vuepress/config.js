@@ -5,7 +5,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
 
   lang: 'zh-CN',
-
+  base: '/vuepress/',
   title: 'Make Old Devices Great Again',
   description: '让旧设备重新变得可用，并尽可能获得更好的使用体验。',
 
