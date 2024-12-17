@@ -1,38 +1,59 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
+import { markdownStylizePlugin } from '@vuepress/plugin-markdown-stylize'
 
 export default defineUserConfig({
 
-  lang: 'zh-CN',
   base: '/vuepress/',
+  lang: 'zh-CN',
   title: 'Make Old Devices Great Again',
   description: '让旧设备重新变得可用，并尽可能获得更好的使用体验。',
-
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-    subSidebar: 'auto',
-    navbar: [{ text: '首页', link: '/' }, '/get-started'],
-    // sidebar: [
-    //   {
-    //       title: '欢迎学习',
-    //       path: '/',
-    //       collapsable: false, // 不折叠
-    //       children: [
-    //           { title: "学前必读", path: "/" }
-    //       ]
-    //   },
-    //   {
-    //     title: "基础学习",
-    //     path: '/handbook/ConditionalTypes',
-    //     collapsable: false, // 不折叠
-    //     children: [
-    //       { title: "条件类型", path: "/handbook/ConditionalTypes" },
-    //       { title: "泛型", path: "/handbook/Generics" }
-    //     ],
-    //   }
-    // ],
+    navbar: [{ text: '首页', link: '/' }, { text: 'Github', link: 'https://github.com/lanrene/vuepress' },],
+    sidebar: [
+      // SidebarItem
+      {
+        text: 'Bambook',
+        link: '/bambook/',
+        prefix: '/bambook/',
+        collapsible: true,
+        children: [
+            'sd988.md'
+        ]
+      },
+      {
+        text: 'QQ阅读',
+        link: '/qq-read/',
+        prefix: '/qq-read/',
+        collapsible: true,
+        children: [
+            'cr316-25.md'
+        ]
+      },
+    ],
+    lastUpdated: false,
+    contributors: false,
+  
   }),
 
   bundler: viteBundler(),
+  pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules'],
+  plugins: [
+    markdownImagePlugin({
+      lazyload: true,
+      figure: true,
+      size: true,
+    }),
+    markdownStylizePlugin({
+      align: true,
+      mark: true,
+      spoiler: true,
+      sup: true,
+      sub: true,
+    }),
+  ],
+ 
 });
