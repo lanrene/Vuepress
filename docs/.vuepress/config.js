@@ -30,7 +30,8 @@ export default defineUserConfig({
         prefix: '/qq-read/',
         collapsible: true,
         children: [
-            'cr316-25.md'
+            'cr316-25.md',
+            'app.md'
         ]
       },
     ],
