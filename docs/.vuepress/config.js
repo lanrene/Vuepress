@@ -12,16 +12,22 @@ export default defineUserConfig({
   description: '让旧设备重新变得可用，并尽可能获得更好的使用体验。',
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-    navbar: [{ text: '首页', link: '/' }, { text: 'Github', link: 'https://github.com/lanrene/vuepress' },],
+    navbar: [{ text: '首页', link: '/' }, {
+      text: '关于作者',
+      children: [
+        { text: 'Github', link: 'https://github.com/lanrene/vuepress' },
+        { text: 'QQ 群', link: 'https://qm.qq.com/cgi-bin/qm/qr?k=c1Y_oGnLOEOmLJoS3zkX0Uj2N_zFhIv4&jump_from=webapi&authKey=m8iiNbdWca/hyYhSICA0SFOA0MxJm6HeMBmMa7QVXTjRTpxKlrkkYJbCpWzX2vOv' },
+        { text: 'Bilibili', link: 'https://space.bilibili.com/255577731' },
+      ]
+    },],
     sidebar: [
-      // SidebarItem
       {
         text: 'Bambook',
         link: '/bambook/',
         prefix: '/bambook/',
         collapsible: true,
         children: [
-            'sd988.md'
+          'sd988.md'
         ]
       },
       {
@@ -30,14 +36,13 @@ export default defineUserConfig({
         prefix: '/qq-read/',
         collapsible: true,
         children: [
-            'cr316-25.md',
-            'app.md'
+          'cr316-25.md',
+          'app.md'
         ]
       },
     ],
     lastUpdated: false,
     contributors: false,
-  
   }),
 
   bundler: viteBundler(),
@@ -56,5 +61,5 @@ export default defineUserConfig({
       sub: true,
     }),
   ],
- 
+
 });
