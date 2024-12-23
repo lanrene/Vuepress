@@ -61,6 +61,11 @@
 **成功生成改名后的软件，名称为 `XXX_clone.apk`**
 
 ![](/images/change_name_06.png =260x)
+
+@tab 增加成功率
+**将改名后的软件签名方案修改为 `V1 + V2 + V3` 更容易成功**
+
+![](/images/change_name_07.png =520x)
 :::
 
 ::: tip
