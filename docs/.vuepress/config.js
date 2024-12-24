@@ -40,6 +40,15 @@ export default defineUserConfig({
           'app.md'
         ]
       },
+      {
+        text: '奇淫技巧',
+        link: '/generic/',
+        prefix: '/generic/',
+        collapsible: true,
+        children: [
+          'use_weread.md'
+        ]
+      },
     ],
     lastUpdated: false,
     contributors: false,

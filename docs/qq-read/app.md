@@ -17,7 +17,8 @@
 | [开源阅读 3.0](/vuepress/app/qq-read/Legado_3.24.08280301_clone.apk) | V3.24 | 阅读 | 【推荐】看网络小说神器。本身不提供内容，需要导入书源才能使用。[Github](https://github.com/gedoor/legado) <br/>【使用体验】第一次打开某个页面出现帮助弹窗就会崩溃，搜索大概率崩溃。弹窗位置偏移。配置需要特别的耐心，配置好之后能避开崩溃，依然是神器。 |
 | [AlReaderX Pro](/vuepress/app/qq-read/AlReaderXPro_android_clone.apk) |  | 阅读 | 【使用体验】弹窗偏移。会崩溃。 |
 | [静读天下 Pro](/vuepress/app/qq-read/Moon_Reader_Pro_v9.6_clone.apk) | V9.6 | 阅读 |  |
-| [EinkBro](/vuepress/app/qq-read/EinkBro_V8.34.1_clone.apk) | V8.34.1 | 浏览器 | 【**强烈推荐**】有了浏览器瞬间就不一样了<br/>【使用体验】默认主页是谷歌，改成必应就好，功能一切正常。 |
+| [EinkBro](/vuepress/app/qq-read/EinkBro_V8.34.1_clone.apk) | V8.34.1 | 浏览器 | 【使用体验】有 Via 了，他就是垃圾。经常卡死。 |
+| [Via Pro](/vuepress/app/qq-read/ViaPro_V4.9.1_clone.apk) | V4.9.1 | 浏览器 | 【**强烈推荐**】最后一个使用旧 UI 的版本，去白名单限制版，可嗅探所有网站<br/>【使用体验】好用。 |
 | [开源阅读 2.0](/vuepress/app/qq-read/YueDu_V2.22.040110_clone.apk) | V2.22 | 阅读器 | 开源阅读的 2.0 版本<br/>【使用体验】没有订阅功能。弹窗位置准确。2.0 版本的书源不太多了。搜索页很奇怪，什么都不显示，但其实是有内容的，可以点击，可以盲操实现加入书架。。。 |
 | [MT 管理器](/vuepress/app/qq-read/MT_Vbeta15.08.15_clone.apk) | V1.0 | 文件管理 | 【推荐】<br/>【使用体验】很久远的版本了，功能不多，但够用。缺点是只有深色主题，在墨水屏上看很难受。 |
 |  |  |  | ==目前迫切需要的软件==<br/>全面屏手势操作类，或者悬浮球类软件。没有返回键很烦，退软件只能使用电源键。如果实在找不到其实可以考虑加个用耳机接口实现的那种返回键。 |
