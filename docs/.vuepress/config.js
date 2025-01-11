@@ -31,7 +31,7 @@ export default defineUserConfig({
         ]
       },
       {
-        text: 'QQ阅读',
+        text: 'QQ阅读器',
         link: '/qq-read/',
         prefix: '/qq-read/',
         collapsible: true,
